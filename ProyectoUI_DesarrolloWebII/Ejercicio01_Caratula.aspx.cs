@@ -46,5 +46,10 @@ namespace ProyectoUI_DesarrolloWebII
             //    }
             //}
         }
+
+        protected void BtnMostrar_Click(object sender, EventArgs e)
+        {
+             
+        }
     }
 }

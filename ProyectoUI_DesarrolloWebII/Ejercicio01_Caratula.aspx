@@ -171,7 +171,7 @@
             </tr>
             <tr>
                 <td class="auto-style1">
-                    <asp:Button ID="BtnMostrar" runat="server" Text="Mostrar" Width="100px" />
+                    <asp:Button ID="BtnMostrar" runat="server" Text="Mostrar" Width="100px" OnClick="BtnMostrar_Click" />
                 </td>
                 <td class="auto-style2">
                     <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" Width="100px" />
