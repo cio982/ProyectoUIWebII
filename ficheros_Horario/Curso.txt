@@ -1,0 +1,66 @@
+Matematica I, 2
+Matematica Basica I, 2
+Diseño en Ingeniería, 2
+Comunicación Oral y Escrita, 1
+Metodología del Trabajo, 1
+Introucción a la Ingeniería de Sistemas, 3
+Matemática II, 2
+Física I, 2
+Técnicas de Programación, 3
+Economía, 1
+Estadistica I, 1
+Quimica I, 2
+Matemática Discreta, 2
+Sistemas Electrónicos Digitales, 2
+Estructura de Datos y Algoritmos, 3
+Diseño y Modelamiento Virtual, 3
+Modelo de Procesos de Negocios, 4
+Sistemas de Información, 7
+Introducción del Desarrollo Web, 3
+Arquitectura del Computador, 6
+Programación I, 3
+Ingeniería Económica y financiera, 7
+Ingenieria de Requerimientos, 4
+Programación Orientada a Objetos, 3
+Diseño de Base de Datos, 5
+Sistemas Operatios I, 6
+Programación II, 3
+Investigación de Operaciones, 7
+Diseño y Arquitectura de Software, 4
+Interacción y Diseño de Interfaces, 4
+Base de Datos I, 5
+Sistemas Operativos II, 6
+Programación III, 3
+Etica Profesional, 1
+Ingeniería de Software, 3
+Desarrollo de Aplicaciones Web I, 4
+Base de Datos II, 5
+Redes y Comunicaciones de Datos I, 6
+Calidad y Pruebas de Software, 4
+Soluciones Móviles I, 4
+Gestión de Proyectos de TI, 7
+Medio Ambiente y Desarrollo Sostenible, 1
+Contabilidad General, 1
+Patrones de Software, 4
+Inteligencia de Negocios, 5
+Redes y Comunicaciones de Datos II, 6
+Ingles Técnico, 1
+Seguridad Informática, 7
+Desarrollo de Aplicaciones Web II, 4
+Derecho Informático, 1
+Diseño y Creación de VideoJuegos, 3
+Planeamiento Estratégico de TI, 7
+Redes y Comunicaciones de Datos III, 6
+Metodología de la Investigación, 1
+Construcción de Software I, 4
+Auditoría de Sistemas, 7
+Gestión de la Congfiguración y Administración de Software, 4
+Tópicos de Base de Datos Avanzados, 5
+Negocios y Marketing por Internet, 1
+Gerencia de TI, 10
+Taller de Redes y Comunicación de Datos, 6
+Proyecto de Tesis, 1
+Construcción de Software II, 4
+Taller de Liderazgo y Emprendimiento, 1
+Sistemas de Información de Banca y Finanzas, 7
+Soluciones Móviles II, 4
