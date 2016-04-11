@@ -12,7 +12,7 @@ namespace ProyectoUI_DesarrolloWebII
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string rutadirectorio = "E:\\EJER3\\";
+            string rutadirectorio = "D:\\EJER3\\";
             string rutaarchivo = rutadirectorio + "Datos.txt";
 
 
