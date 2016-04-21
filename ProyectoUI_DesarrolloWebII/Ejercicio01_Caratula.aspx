@@ -14,16 +14,14 @@
             width: 256px;
         }
     </style>
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     
 
 </head>
 <body>
-    <style type="text/css">
+     <style type="text/css">
         .text-align {
             center;
         }        
@@ -44,13 +42,13 @@
         }
     </style>
     <form id="form1" runat="server">
-    <div>
+    <div class="form-group">
     
         Ejercicio 01<br />
         <table style="width:45%;" align="center">
             <tr>
                 <td class="auto-style1">&nbsp;</td>
-                <td class="auto-style2">GENERADOR DE CARATULA</td>
+                <td class="auto-style2"><h3>GENERADOR DE CARATULA</h3></td>
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
@@ -59,28 +57,30 @@
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">UNIVERSIDAD:</td>
-                <td class="input-field col s6">
-                    <asp:TextBox ID="TxtUniversidad" runat="server" Width="245px"></asp:TextBox>
+                <td class="auto-style1"><label>UNIVERSIDAD:</label></td>
+                <td class="auto-style2">
+                    <div class="input-field col s6">
+                        <asp:TextBox ID="TxtUniversidad" runat="server" Width="245px"></asp:TextBox>
+                    </div>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">FACULTAD:</td>
+                <td class="auto-style1"><label>FACULTAD:</label></td>
                 <td class="auto-style2">
                     <asp:TextBox ID="TxtFacultad" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">ESCUELA:</td>
+                <td class="auto-style1"><label>ESCUELA:</label></td>
                 <td class="auto-style2">
                     <asp:TextBox ID="TxtEscuela" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">TIPO:</td>
+                <td class="auto-style1"><label>TIPO:</label></td>
                 <td class="auto-style2">
                     <asp:RadioButtonList ID="RbtnTipo" runat="server">
                         <asp:ListItem>TRABAJO</asp:ListItem>
@@ -90,7 +90,7 @@
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">CICLO:</td>
+                <td class="auto-style1"><label>CICLO:</label></td>
                 <td class="auto-style2">
                     <asp:DropDownList ID="DdlCiclo" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DdlCiclo_SelectedIndexChanged1">
                     </asp:DropDownList>
@@ -98,7 +98,7 @@
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">CURSO:</td>
+                <td class="auto-style1"><label>CURSO:</label></td>
                 <td class="auto-style2">
                     <asp:DropDownList ID="DdlCurso" runat="server" Height="20px" Width="250px" AutoPostBack="True" OnSelectedIndexChanged="DdlCurso_SelectedIndexChanged">
                     </asp:DropDownList>
@@ -106,21 +106,21 @@
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">DOCENTE:</td>
+                <td class="auto-style1"><label>DOCENTE:</label></td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TxtDocente" runat="server" Width="245px"></asp:TextBox>
+                    <asp:TextBox class="form-control" ID="TxtDocente" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">TITULO:</td>
+                <td class="auto-style1"><label>TITULO:</label></td>
                 <td class="auto-style2">
                     <asp:TextBox ID="TxtTitulo" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">PRESENTACION:</td>
+                <td class="auto-style1"><label>PRESENTACION:</label></td>
                 <td class="auto-style2">
                     <asp:RadioButtonList ID="RbtnPresentacion" runat="server" AppendDataBoundItems="True" AutoPostBack="True" OnSelectedIndexChanged="RbtnPresentacion_SelectedIndexChanged">
                         <asp:ListItem>INDIVIDUAL</asp:ListItem>
@@ -135,8 +135,8 @@
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">CODIGO</td>
-                <td class="auto-style2">NOMBRE</td>
+                <td class="auto-style1"><label>CODIGO</label></td>
+                <td class="auto-style2"><label>NOMBRE</label></td>
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
@@ -189,10 +189,10 @@
             </tr>
             <tr>
                 <td class="auto-style4">
-                    <asp:Button ID="BtnMostrar" runat="server" Text="Mostrar" Width="100px" OnClick="BtnMostrar_Click"  PostBackUrl="~/GeneradordeCaratula.aspx"/>
+                    <asp:Button class="btn btn-success" ID="BtnMostrar" runat="server" Text="Mostrar" Width="100px" OnClick="BtnMostrar_Click"  PostBackUrl="~/GeneradordeCaratula.aspx"/>
                 </td>
                 <td class="auto-style5">
-                    <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" Width="100px" />
+                    <asp:Button class="btn btn-success" ID="BtnLimpiar" runat="server" Text="Limpiar" Width="100px" />
                 </td>
                 <td class="auto-style6"></td>
             </tr>
