@@ -64,8 +64,8 @@
                 <td class="auto-style1">TIPO:</td>
                 <td class="auto-style2">
                     <asp:RadioButtonList ID="RbtnTipo" runat="server">
-                        <asp:ListItem>Trabajo</asp:ListItem>
-                        <asp:ListItem>Informe</asp:ListItem>
+                        <asp:ListItem>TRABAJO</asp:ListItem>
+                        <asp:ListItem>INFORME</asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
@@ -104,8 +104,8 @@
                 <td class="auto-style1">PRESENTACION:</td>
                 <td class="auto-style2">
                     <asp:RadioButtonList ID="RbtnPresentacion" runat="server" AppendDataBoundItems="True" AutoPostBack="True" OnSelectedIndexChanged="RbtnPresentacion_SelectedIndexChanged">
-                        <asp:ListItem>Individual</asp:ListItem>
-                        <asp:ListItem>Grupal</asp:ListItem>
+                        <asp:ListItem>INDIVIDUAL</asp:ListItem>
+                        <asp:ListItem>GRUPAL</asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
                 <td class="auto-style3">&nbsp;</td>

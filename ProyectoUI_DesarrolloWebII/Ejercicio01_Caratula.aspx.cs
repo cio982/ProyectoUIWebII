@@ -12,6 +12,7 @@ namespace ProyectoUI_DesarrolloWebII
     public partial class Ejercicio01_Caratula : System.Web.UI.Page
     {
         string rutadirectorio = "D:\\EJER3\\";
+        string tipo = "";
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -1263,6 +1264,23 @@ namespace ProyectoUI_DesarrolloWebII
             TxtNombre2.Visible = true;
             TxtCodigo3.Visible = true;
             TxtNombre3.Visible = true;
+        }
+
+        public void tipoCaratula()
+        {
+            if(RbtnTipo.SelectedIndex == 0)
+            {
+                tipo = "TRABAJO";
+            }
+            else if(RbtnTipo.SelectedIndex == 1)
+            {
+                tipo = "INFORME";
+            }
+            else
+            {
+                tipo = "SELECCIONE";
+            }
+
         }
     }
 }
