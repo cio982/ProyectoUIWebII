@@ -14,6 +14,13 @@
             width: 256px;
         }
     </style>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    
+
 </head>
 <body>
     <style type="text/css">
@@ -53,7 +60,7 @@
             </tr>
             <tr>
                 <td class="auto-style1">UNIVERSIDAD:</td>
-                <td class="auto-style2">
+                <td class="input-field col s6">
                     <asp:TextBox ID="TxtUniversidad" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
