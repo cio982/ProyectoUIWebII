@@ -133,7 +133,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo5 = new FileStream(rutaarchivo5, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo5))
                 {
-                    w.Write("CALCULO I,ALGEBRA LINEAL,INTRODUCCION A LA INGENIERIA DE SISTEMAS,INTRODUCCION A LA PROGRAMACION,COMUNICACION ORAL Y ESCRITA,METODOLOGIA DEL TRABAJO UNIVERSITARIO");
+                    w.Write("MATEMATICA I,MATEMATICA BASICA I,INTRODUCCION A LA INGENIERIA DE SISTEMAS,DISEÑO EN INGENIERIA,COMUNICACION ORAL Y ESCRITA,METODOLOGIA DEL TRABAJO UNIVERSITARIO");
                 }
             }
 
@@ -142,7 +142,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo6 = new FileStream(rutaarchivo6, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo6))
                 {
-                    w.Write("CALCULO II,MATEMATICA DISCRETA I,SISTEMAS DE INFORMACION,ESTRUCTURA DE DATOS Y ALGORITMOS,PROGRAMACION I");
+                    w.Write("MATEMATICA II,FISICA I,TECNICAS DE PROGRAMACION,ECONOMIA I,ESTADISTICA I,QUIMICA I");
                 }
             }
 
@@ -151,7 +151,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo7 = new FileStream(rutaarchivo7, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo7))
                 {
-                    w.Write("FISICA GENERAL,MATEMATICA DISCRETA II,ESTADISTICA DESCRIPTIVA,MODELO DE PROCESOS DE NEGOCIOS,PROGRAMACION ORIENTADA A OBJETOS,PROGRAMACION II");
+                    w.Write("MATEMATICA DISCRETA,SISTEMAS ELECTRONICOS DIGITALES,ALGORITMOS Y ESTRUCTURA DE DATOS,DISEÑO Y MODELAMIENTO,MODELO DE PROCESOS DE NEGOCIOS,SISTEMAS DE INFORMACION");
                 }
             }
 
@@ -160,7 +160,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo8 = new FileStream(rutaarchivo8, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo8))
                 {
-                    w.Write("FISICA ELECTRICA APLICADA,INTRODUCCION AL DESARROLLO WEB,ESTADISTICA INFERENCIAL,INGENIERIA DE REQUERIMIENTOS,DISEÑO Y MODELAMIENTO VIRTUAL,DISEÑO DE INTERFACES E INTERACCION");
+                    w.Write("INTRODUCCION AL DESARROLLO WEB,ARQUITECTURA DEL COMPUTADOR,PROGRAMACION I,INGENIERIA ECONOMICA Y FINANCIERA,INGENIERIA DE REQUERIMIENTOS,PROGRAMACION ORIENTADA A OBJETOS");
                 }
             }
 
@@ -169,7 +169,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo9 = new FileStream(rutaarchivo9, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo9))
                 {
-                    w.Write("DISEÑO Y ARQUITECTURA DE SOFTWARE,SISTEMAS OPERATIVOS I,DISEÑO DE BASE DE DATOS,PROGRAMACION LINEAL,PROGRAMACION III,INGENIERIA ECONOMICA DE SOFTWARE");
+                    w.Write("DISEÑO DE BASE DE DATOS,SISTEMAS OPERATIVOS I,PROGRAMACION II,INVESTIGACION DE OPERACIONES,DISEÑO Y ARQUITECTURA DE SOFTWARE,INTERACCION Y DISEÑO DE INTERFACES");
                 }
             }
 
@@ -178,7 +178,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo10 = new FileStream(rutaarchivo10, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo10))
                 {
-                    w.Write("APLICACIONES MOVILES I,ARQUITECTURA DEL COMPUTADOR,GESTION DE BASE DE DATOS,INGENIERIA DE SOFTWARE,SISTEMAS OPERATIVOS II,GESTION DE LA CALIDAD DE SOFTWARE");
+                    w.Write("BASE DE DATOS I,SISTEMAS OPERATIVOS II,PROGRAMACION III,DESARROLLO DE APLICACIONES WEB I,INGENIERIA DE SOFTWARE,ETICA PROFECIONAL");
                 }
             }
 
@@ -187,7 +187,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo11 = new FileStream(rutaarchivo11, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo11))
                 {
-                    w.Write("PROGRAMACION WEB I,REDES Y COMUNICACIONES DE DATOS I,MINERIA DE DATOS,NEGOCIOS ELECTRONICOS,GESTION DE PROYECTOS");
+                    w.Write("BASE DE DATOS II,REDES Y COMUNICACIONES DE DATOS I,SOLUCIONES MOVILES I,CALIDAD Y PRUEBAS DE SOFTWARE,GESTION DE PROYECTOS DE TI");
                 }
             }
 
@@ -196,7 +196,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo12 = new FileStream(rutaarchivo12, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo12))
                 {
-                    w.Write("PROGRAMACION WEB II,REDES Y COMUNICACIONES DE DATOS II,TOPICOS AVANZADOS DE BASE DE DATOS,CONSTRUCCION DE SOFTWARE I,SEGURIDAD INFORMATICA,ETICA PROFESIONAL");
+                    w.Write("DESARROLLO DE APLICACIONES WEB II,REDES Y COMUNICACIONES DE DATOS II,INGLES TECNICO,INTELIGENCIA DE NEGOCIOS,SEGURIDAD INFORMATICA");
                 }
             }
 
@@ -205,7 +205,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo13 = new FileStream(rutaarchivo13, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo13))
                 {
-                    w.Write("GESTION DE LA CONFIGURACION Y MANTENIMIENTO DE SOFTWARE,REDES Y COMUNICACIONES DE DATOS III,PLANEAMIENTO DE TI,CONSTRUCCION DE SOFTWARE II,TALLER DE TESIS I");
+                    w.Write("GESTION DE LA CONFIGURACION Y ADMINISTRACION DE SOFTWARE,REDES Y COMUNICACIONES DE DATOS III,PLANEAMIENTO ESTRATEGICO DE TI,CONSTRUCCION DE SOFTWARE I,AUDITORIA DE SISTEMAS,METODOLOGIA DE LA INVESTIGACION APLICADA");
                 }
             }
 
@@ -214,7 +214,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo14 = new FileStream(rutaarchivo14, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo14))
                 {
-                    w.Write("PRUEBAS DE SOFTWARE,TALLER DE REDES E INFRAESTRUCTURA DE TI,GERENCIA DE SI-TI,TALLER DE LIDERAZGO Y EMPRENDIMIENTO,TALLER DE TESIS II");
+                    w.Write("TALLER DE LIDERAZGO Y ENPRENDIMIENTO,TALLER DE REDES Y COMUNICACION DE DATOS,TALLER DE TESIS,CONSTRUCCION DE SOFTWARE II,GERENCIA DE TI");
                 }
             }
 
@@ -223,7 +223,7 @@ namespace ProyectoUI_DesarrolloWebII
                 FileStream archivo15 = new FileStream(rutaarchivo15, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo15))
                 {
-                    w.Write("MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE,APLICACIONES MOVILES II,DERECHO INFORMATICO,GESTION DE CONOCIMIENTO,SEMINARIO DE APLICACIONES,AUDITORIA DE SISTEMAS,SISTEMAS DE INFORMACION DE BANCA Y FINANZAS,SEMINARIOS DE REDES");
+                    w.Write("MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE,CONTABILIDAD GENERAL,PATRONES DE SOFTWARE,DERECHO INFORMATICO,DISEÑO Y CREACION DE VIDEOJUEGOS,NEGOCIOS Y MARKETING POR INTERNET,TOPICOS DE BASE DE DATOS AVANZADOS,SISTEMA DE INFORMACION DE BANCA Y FINANZAS,SOLUCIONES MOVILES II");
                 }
             }
 
