@@ -10,7 +10,7 @@
 namespace Ejercicio02 {
     
     
-    public partial class index {
+    public partial class consultar {
         
         /// <summary>
         /// Control form1.
@@ -22,30 +22,39 @@ namespace Ejercicio02 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control BtnListar.
+        /// Control lblLista1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnListar;
+        protected global::System.Web.UI.WebControls.Label lblLista1;
         
         /// <summary>
-        /// Control DropDownList1.
+        /// Control lblLista2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.Label lblLista2;
         
         /// <summary>
-        /// Control LblLista.
+        /// Control lblLista3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblLista;
+        protected global::System.Web.UI.WebControls.Label lblLista3;
+        
+        /// <summary>
+        /// Control lblLista4.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblLista4;
     }
 }

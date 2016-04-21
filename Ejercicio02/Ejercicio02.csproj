@@ -43,11 +43,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.9\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -66,6 +78,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="consultar.aspx" />
+    <Content Include="consulta_tipo.aspx" />
+    <Content Include="exportar.aspx" />
+    <Content Include="generador.aspx" />
+    <Content Include="horario_generado.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,12 +97,52 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bloque.cs" />
+    <Compile Include="Ciclo.cs" />
+    <Compile Include="consultar.aspx.cs">
+      <DependentUpon>consultar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultar.aspx.designer.cs">
+      <DependentUpon>consultar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consulta_tipo.aspx.cs">
+      <DependentUpon>consulta_tipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consulta_tipo.aspx.designer.cs">
+      <DependentUpon>consulta_tipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curso.cs" />
+    <Compile Include="Docente.cs" />
     <Compile Include="ejemplo.aspx.cs">
       <DependentUpon>ejemplo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ejemplo.aspx.designer.cs">
       <DependentUpon>ejemplo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exportar.aspx.cs">
+      <DependentUpon>exportar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exportar.aspx.designer.cs">
+      <DependentUpon>exportar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="generador.aspx.cs">
+      <DependentUpon>generador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="generador.aspx.designer.cs">
+      <DependentUpon>generador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Horario.cs" />
+    <Compile Include="horario_generado.aspx.cs">
+      <DependentUpon>horario_generado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="horario_generado.aspx.designer.cs">
+      <DependentUpon>horario_generado.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -95,6 +152,7 @@
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salon.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\" />

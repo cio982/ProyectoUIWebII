@@ -1,0 +1,17 @@
+$(document).ready(function(){ 
+    $('#lista01').on('click',function(){
+      $('#lst_item1').slideToggle();
+    });
+    $('#lista02').on('click',function(){
+      $('#lst_item2').slideToggle();
+    });
+    $('#lista03').on('click',function(){
+      $('#lst_item3').slideToggle();
+    });
+    $('#lista04').on('click',function(){
+      $('#lst_item4').slideToggle();
+    });
+    $('#lista05').on('click',function(){
+      $('#lst_item5').slideToggle();
+    });
+});

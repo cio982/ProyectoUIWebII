@@ -12,6 +12,9 @@
     <form id="form1" runat="server">
         <asp:Button ID="BtnListar" runat="server" OnClick="BtnListar_Click" Text="Listar" />
         <br />
+        <asp:DropDownList ID="DropDownList1" runat="server">
+        </asp:DropDownList>
+        <br />
         <asp:Label ID="LblLista" runat="server" Text="Label"></asp:Label>
     </form>
 </body>

@@ -10,7 +10,7 @@
 namespace Ejercicio02 {
     
     
-    public partial class index {
+    public partial class consulta_tipo {
         
         /// <summary>
         /// Control form1.
@@ -22,30 +22,57 @@ namespace Ejercicio02 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control BtnListar.
+        /// Control LblResultado1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnListar;
+        protected global::System.Web.UI.WebControls.Label LblResultado1;
         
         /// <summary>
-        /// Control DropDownList1.
+        /// Control LblResultado2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.Label LblResultado2;
         
         /// <summary>
-        /// Control LblLista.
+        /// Control LblResultado3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblLista;
+        protected global::System.Web.UI.WebControls.Label LblResultado3;
+        
+        /// <summary>
+        /// Control LblResultado4.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblResultado4;
+        
+        /// <summary>
+        /// Control LblResultado5.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblResultado5;
+        
+        /// <summary>
+        /// Control LblResultado6.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblResultado6;
     }
 }

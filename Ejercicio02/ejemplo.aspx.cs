@@ -44,7 +44,7 @@ namespace Ejercicio02
         }
 
         public void LeerFichero() {
-            string fichero = @"\Ficheros\horario.txt";
+            string fichero = @"d:\Ficheros\horario.txt";
             String resultado = "";
             try
             {
@@ -56,6 +56,7 @@ namespace Ejercicio02
                         if (!String.IsNullOrEmpty(linea))
                         {
                             resultado += linea + "<br>";
+                            //DropDownList1.Items.Add("arrrr");
                             //Console.WriteLine(linea);
                         }
                     }
