@@ -838,7 +838,15 @@ namespace ProyectoUI_DesarrolloWebII
                     w.Write("Rodolfo Alanoca Llanos");
                 }
             }
-            
+
+            if (!File.Exists(rutaarchivo79))
+            {    
+                FileStream archivo79 = new FileStream(rutaarchivo79, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo79))
+                {               
+                    w.Write("Alberto Flor Rodriguez");
+                }
+            }
         }
 
         protected void BtnMostrar_Click(object sender, EventArgs e)
