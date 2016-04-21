@@ -99,7 +99,7 @@
             </tr>
             <tr>
                 <td class="auto-style1"><label>CURSO:</label></td>
-                <td class="auto-style2">
+                <td class="dropdown-menu">
                     <asp:DropDownList ID="DdlCurso" runat="server" Height="20px" Width="250px" AutoPostBack="True" OnSelectedIndexChanged="DdlCurso_SelectedIndexChanged">
                     </asp:DropDownList>
                 </td>
@@ -147,7 +147,7 @@
                     <asp:TextBox ID="TxtNombre" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="BtnSumar" runat="server" Width="50px" OnClick="BtnSumar_Click" />
+                    <asp:Button class="btn btn-success" ID="BtnSumar" runat="server" Width="50px" OnClick="BtnSumar_Click" />
                 </td>
             </tr>
             <tr>
@@ -158,7 +158,7 @@
                     <asp:TextBox ID="TxtNombre1" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="BtnSumar1" runat="server" Width="50px" OnClick="BtnSumar1_Click" />
+                    <asp:Button class="btn btn-success" ID="BtnSumar1" runat="server" Width="50px" OnClick="BtnSumar1_Click"/>
                 </td>
             </tr>
             <tr>
@@ -169,7 +169,7 @@
                     <asp:TextBox ID="TxtNombre2" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="BtnSumar2" runat="server" Width="50px" OnClick="BtnSumar2_Click" />
+                    <asp:Button class="btn btn-success" ID="BtnSumar2" runat="server" Width="50px" OnClick="BtnSumar2_Click" />
                 </td>
             </tr>
             <tr>
