@@ -95,6 +95,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GeneradorCaratulaTRA.aspx" />
+    <Content Include="GeneradordeCaratula.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -137,6 +139,20 @@
     <Compile Include="Ejercicio01_Caratula.aspx.designer.cs">
       <DependentUpon>Ejercicio01_Caratula.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GeneradorCaratulaTRA.aspx.cs">
+      <DependentUpon>GeneradorCaratulaTRA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GeneradorCaratulaTRA.aspx.designer.cs">
+      <DependentUpon>GeneradorCaratulaTRA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GeneradordeCaratula.aspx.cs">
+      <DependentUpon>GeneradordeCaratula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GeneradordeCaratula.aspx.designer.cs">
+      <DependentUpon>GeneradordeCaratula.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -145,6 +161,13 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reporte.rdlc" />
+    <EmbeddedResource Include="ReporteTRA.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="imagenes\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

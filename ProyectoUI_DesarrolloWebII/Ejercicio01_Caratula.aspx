@@ -170,7 +170,7 @@
             </tr>
             <tr>
                 <td class="auto-style1">
-                    <asp:Button ID="BtnMostrar" runat="server" Text="Mostrar" Width="100px" OnClick="BtnMostrar_Click" />
+                    <asp:Button ID="BtnMostrar" runat="server" Text="Mostrar" Width="100px" OnClick="BtnMostrar_Click" PostBackUrl="~/GeneradordeCaratula.aspx"/>
                 </td>
                 <td class="auto-style2">
                     <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" Width="100px" />
