@@ -11,7 +11,7 @@ namespace ProyectoUI_DesarrolloWebII
 {
     public partial class GeneradordeCaratula : System.Web.UI.Page
     {
-        string tipo = "";
+        //string tipo = "";
         protected void Page_Load(object sender, EventArgs e)
         {
             rvCaratula.LocalReport.ReportPath = @"C:\web\ProyectoUIWebII\ProyectoUI_DesarrolloWebII\Reporte.rdlc";
@@ -36,8 +36,8 @@ namespace ProyectoUI_DesarrolloWebII
                 ReportParameter puniversidad = new ReportParameter("Universidad", universidad);
                 ReportParameter pfacultad = new ReportParameter("Facultad", facultad);
                 ReportParameter pescuela = new ReportParameter("Escuela", escuela);
-                tipocaratula();
-                ReportParameter ptipo = new ReportParameter("Tipo", tipo);
+                //tipocaratula();
+                //ReportParameter ptipo = new ReportParameter("Tipo", tipo);
                 ReportParameter pciclo = new ReportParameter("Ciclo", ciclo);
                 ReportParameter pcurso = new ReportParameter("Curso", curso);
                 ReportParameter pdocente = new ReportParameter("Docente", docente);
@@ -52,7 +52,7 @@ namespace ProyectoUI_DesarrolloWebII
                 {
                     //Cargar parámetros
                     rvCaratula.LocalReport.SetParameters(new ReportParameter[] {
-                         puniversidad,pfacultad,pescuela,pciclo,pcurso,pdocente,pcodigo,pnombre,ptitulo
+                         puniversidad,pfacultad,pescuela,pciclo,pcurso,pdocente,pcodigo,pnombre,ptitulo/*,ptipo*/
                     });
 
                     //Imprimimos los parámetros
@@ -61,20 +61,16 @@ namespace ProyectoUI_DesarrolloWebII
             }
         }
 
-        void tipocaratula()
-        {
-            if (((RadioButtonList)PreviousPage.FindControl("RbtnTipo")).SelectedValue == 0)
-            {
-                tipo = "TRABAJO";
-            }
-            else if (((RadioButtonList)PreviousPage.FindControl("RbtnTipo")).SelectedValue == 1)
-            {
-                tipo = "INFORME";
-            }
-            else
-            {
-                tipo = "SELECCIONE";
-            }
-        }
+        //void tipocaratula()
+        //{
+        //    if (((RadioButtonList)PreviousPage.FindControl("RbtnTipo")).SelectedValue = "TRABAJO")
+        //    {
+        //        tipo = "TRABAJO ACADEMICO";
+        //    }
+        //    else if (((RadioButtonList)PreviousPage.FindControl("RbtnTipo")).SelectedValue = "iNFORME")
+        //    {
+        //        tipo = "INFORME";
+        //    }
+        //}
     }
 }

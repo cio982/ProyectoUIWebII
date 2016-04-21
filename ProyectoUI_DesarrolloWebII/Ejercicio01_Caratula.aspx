@@ -23,6 +23,18 @@
         .auto-style3 {
             width: 337px;
         }
+        .auto-style4 {
+            width: 177px;
+            height: 30px;
+        }
+        .auto-style5 {
+            width: 256px;
+            height: 30px;
+        }
+        .auto-style6 {
+            width: 337px;
+            height: 30px;
+        }
     </style>
     <form id="form1" runat="server">
     <div>
@@ -169,13 +181,13 @@
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">
+                <td class="auto-style4">
                     <asp:Button ID="BtnMostrar" runat="server" Text="Mostrar" Width="100px" OnClick="BtnMostrar_Click"  PostBackUrl="~/GeneradordeCaratula.aspx"/>
                 </td>
-                <td class="auto-style2">
+                <td class="auto-style5">
                     <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" Width="100px" />
                 </td>
-                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style6"></td>
             </tr>
             <tr>
                 <td class="auto-style1">&nbsp;</td>
