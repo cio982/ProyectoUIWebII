@@ -202,15 +202,6 @@ namespace ProyectoUI_DesarrolloWebII {
         protected global::System.Web.UI.WebControls.TextBox TxtNombre3;
         
         /// <summary>
-        /// Control BtnSumar3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnSumar3;
-        
-        /// <summary>
         /// Control BtnMostrar.
         /// </summary>
         /// <remarks>

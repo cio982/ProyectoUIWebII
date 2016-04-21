@@ -10,9 +10,18 @@ namespace ProyectoUI_DesarrolloWebII
 {
     public partial class Ejercicio01_Caratula : System.Web.UI.Page
     {
+        string rutadirectorio = "D:\\EJER3\\";
         protected void Page_Load(object sender, EventArgs e)
         {
-            string rutadirectorio = "D:\\EJER3\\";
+            
+
+            TxtUniversidad.Enabled = false;
+            TxtFacultad.Enabled = false;
+            TxtEscuela.Enabled = false;
+            TxtDocente.Enabled = false;
+
+            Ocultar();           
+
             /*datos genericos*/
             string rutaarchivo = rutadirectorio + "Datos.txt";
             string rutaarchivo2 = rutadirectorio + "Datos2.txt";
@@ -847,11 +856,412 @@ namespace ProyectoUI_DesarrolloWebII
                     w.Write("Alberto Flor Rodriguez");
                 }
             }
+/*-------------------------------------------------lecturas-----------------------------------------------*/
+            string mensajeCi = "";
+            string lineCi;
+
+            if (File.Exists(rutaarchivo4))
+            {
+                if(DdlCiclo.Items.Count <= 0)
+                {
+                    StreamReader datoci = new StreamReader(rutaarchivo4);
+
+                    while ((lineCi = datoci.ReadLine()) != null)
+                    {
+                        mensajeCi = lineCi;
+                    }
+
+                    char sepCi = ',';
+
+                    string[] cCi = mensajeCi.Split(sepCi);
+
+                    // DdlCiclo.Items.Clear();
+
+                    for (int i = 0; i < cCi.Length; i++)
+                    {
+                        DdlCiclo.Items.Add(cCi[i]);
+                    }
+                }                
+            }
+            else
+            {
+                
+            }
+
+            if (File.Exists(rutaarchivo))
+            {
+                string line1;
+                StreamReader dato = new StreamReader(rutaarchivo);
+                string uni = "";
+
+                while ((line1 = dato.ReadLine()) != null)
+                {
+                    uni = line1;
+                }
+
+                TxtUniversidad.Text = uni;
+            }
+            else
+            {
+               
+            }
+
+            if (File.Exists(rutaarchivo2))
+            {
+                string line2;
+                StreamReader dato = new StreamReader(rutaarchivo2);
+                string fac = "";
+
+                while ((line2 = dato.ReadLine()) != null)
+                {
+                    fac = line2;
+                }
+
+                TxtFacultad.Text = fac;
+            }
+            else
+            {
+               
+            }
+
+            if (File.Exists(rutaarchivo3))
+            {
+                string line3;
+                StreamReader dato = new StreamReader(rutaarchivo3);
+                string esc = "";
+
+                while ((line3 = dato.ReadLine()) != null)
+                {
+                    esc = line3;
+                }
+
+                TxtEscuela.Text = esc;
+            }
+            else
+            {
+               
+            }
+            
+
         }
 
+        void Ocultar()
+        {
+            BtnSumar.Visible = false;
+            TxtCodigo1.Visible = false;
+            TxtCodigo2.Visible = false;
+            TxtCodigo3.Visible = false;
+            TxtNombre1.Visible = false;
+            TxtNombre2.Visible = false;
+            TxtNombre3.Visible = false;
+
+            BtnSumar1.Visible = false;
+            BtnSumar2.Visible = false;
+        }
+
+        void TipoPresentacion()
+        {
+
+            if (RbtnPresentacion.SelectedIndex == 0)
+            {                
+                Ocultar();
+            }
+            else if (RbtnPresentacion.SelectedIndex == 1)
+            {
+                BtnSumar.Visible = true;
+            }
+            else
+            {
+                BtnSumar.Visible = false;
+            }
+        }              
+        
         protected void BtnMostrar_Click(object sender, EventArgs e)
         {
              
+        }
+        protected void RbtnPresentacion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TipoPresentacion();
+        }
+
+        protected void DdlCiclo_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+            DdlCurso.Items.Clear();
+
+            string ciclo = Convert.ToString(DdlCiclo.SelectedItem);
+
+            switch (ciclo)
+            {
+                case "I Ciclo":
+                    string cursos1 = rutadirectorio + "curso1.txt";
+                    StreamReader dato = new StreamReader(cursos1);
+                    string line;
+                    string mensaje = "";
+
+                    while ((line = dato.ReadLine()) != null)
+                    {
+                        mensaje = line;
+                    }
+
+                    char sep = ',';
+
+                    string[] c = mensaje.Split(sep);
+
+                    for (int i = 0; i < c.Length; i++)
+                    {
+                        DdlCurso.Items.Add(c[i]);
+                    }
+                    break;
+                case "II Ciclo":
+                    string cursos2 = rutadirectorio + "curso2.txt";
+                    StreamReader dato2 = new StreamReader(cursos2);
+                    string line2;
+                    string mensaje2 = "";
+
+                    while ((line2 = dato2.ReadLine()) != null)
+                    {
+                        mensaje2 = line2;
+                    }
+
+                    char sep2 = ',';
+
+                    string[] c2 = mensaje2.Split(sep2);
+
+                    for (int i = 0; i < c2.Length; i++)
+                    {
+                        DdlCurso.Items.Add(c2[i]);
+                    }
+                    break;
+                case "III Ciclo":
+                    string cursos3 = rutadirectorio + "curso3.txt";
+                    StreamReader dato3 = new StreamReader(cursos3);
+                    string line3;
+                    string mensaje3 = "";
+
+                    while ((line3 = dato3.ReadLine()) != null)
+                    {
+                        mensaje3 = line3;
+                    }
+
+                    char sep3 = ',';
+
+                    string[] c3 = mensaje3.Split(sep3);
+
+                    for (int i = 0; i < c3.Length; i++)
+                    {
+                        DdlCurso.Items.Add(c3[i]);
+                    }
+                    break;
+                case "IV Ciclo":
+                    string cursos4 = rutadirectorio + "curso4.txt";
+                    StreamReader dato4 = new StreamReader(cursos4);
+                    string line4;
+                    string mensaje4 = "";
+
+                    while ((line4 = dato4.ReadLine()) != null)
+                    {
+                        mensaje4 = line4;
+                    }
+
+                    char sep4 = ',';
+
+                    string[] c4 = mensaje4.Split(sep4);
+
+                    for (int i = 0; i < c4.Length; i++)
+                    {
+                        DdlCurso.Items.Add(c4[i]);
+                    }
+                    break;
+                case "V Ciclo":
+                    string cursos5 = rutadirectorio + "curso5.txt";
+                    StreamReader dato5 = new StreamReader(cursos5);
+                    string line5;
+                    string mensaje5 = "";
+
+                    while ((line5 = dato5.ReadLine()) != null)
+                    {
+                        mensaje5 = line5;
+                    }
+
+                    char sep5 = ',';
+
+                    string[] c5 = mensaje5.Split(sep5);
+
+                    for (int i = 0; i < c5.Length; i++)
+                    {
+                        DdlCurso.Items.Add(c5[i]);
+                    }
+                    break;
+                case "VI Ciclo":
+                    string cursos6 = rutadirectorio + "curso6.txt";
+                    StreamReader dato6 = new StreamReader(cursos6);
+                    string line6;
+                    string mensaje6 = "";
+
+                    while ((line6 = dato6.ReadLine()) != null)
+                    {
+                        mensaje6 = line6;
+                    }
+
+                    char sep6 = ',';
+
+                    string[] c6 = mensaje6.Split(sep6);
+
+                    for (int i = 0; i < c6.Length; i++)
+                    {
+                        DdlCurso.Items.Add(c6[i]);
+                    }
+                    break;
+                case "VII Ciclo":
+                    string cursos7 = rutadirectorio + "curso3.txt";
+                    StreamReader dato7 = new StreamReader(cursos7);
+                    string line7;
+                    string mensaje7 = "";
+
+                    while ((line7 = dato7.ReadLine()) != null)
+                    {
+                        mensaje7 = line7;
+                    }
+
+                    char sep7 = ',';
+
+                    string[] c7 = mensaje7.Split(sep7);
+
+                    for (int i = 0; i < c7.Length; i++)
+                    {
+                        DdlCurso.Items.Add(c7[i]);
+                    }
+                    break;
+                case "VIII Ciclo":
+                    string cursos8 = rutadirectorio + "curso8.txt";
+                    StreamReader dato8 = new StreamReader(cursos8);
+                    string line8;
+                    string mensaje8 = "";
+
+                    while ((line8 = dato8.ReadLine()) != null)
+                    {
+                        mensaje8 = line8;
+                    }
+
+                    char sep8 = ',';
+
+                    string[] c8 = mensaje8.Split(sep8);
+
+                    for (int i = 0; i < c8.Length; i++)
+                    {
+                        DdlCurso.Items.Add(c8[i]);
+                    }
+                    break;
+                case "IX Ciclo":
+                    string cursos9 = rutadirectorio + "curso9.txt";
+                    StreamReader dato9 = new StreamReader(cursos9);
+                    string line9;
+                    string mensaje9 = "";
+
+                    while ((line9 = dato9.ReadLine()) != null)
+                    {
+                        mensaje9 = line9;
+                    }
+
+                    char sep9 = ',';
+
+                    string[] c9 = mensaje9.Split(sep9);
+
+                    for (int i = 0; i < c9.Length; i++)
+                    {
+                        DdlCurso.Items.Add(c9[i]);
+                    }
+                    break;
+                case "X Ciclo":
+                    string cursos10 = rutadirectorio + "curso10.txt";
+                    StreamReader dato10 = new StreamReader(cursos10);
+                    string line10;
+                    string mensaje10 = "";
+
+                    while ((line10 = dato10.ReadLine()) != null)
+                    {
+                        mensaje10 = line10;
+                    }
+
+                    char sep10 = ',';
+
+                    string[] c10 = mensaje10.Split(sep10);
+
+                    for (int i = 0; i < c10.Length; i++)
+                    {
+                        DdlCurso.Items.Add(c10[i]);
+                    }
+                    break;
+                case "Electivos":
+                    string elec = rutadirectorio + "electivos.txt";
+                    StreamReader datoelec = new StreamReader(elec);
+                    string linelec;
+                    string mensajelec = "";
+
+                    while ((linelec = datoelec.ReadLine()) != null)
+                    {
+                        mensajelec = linelec;
+                    }
+
+                    char seplec = ',';
+
+                    string[] cel = mensajelec.Split(seplec);
+
+                    for (int i = 0; i < cel.Length; i++)
+                    {
+                        DdlCurso.Items.Add(cel[i]);
+                    }
+                    break;
+            }
+        }
+
+        protected void DdlCurso_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string doc = Convert.ToString(DdlCurso.SelectedItem);
+            string cur = rutadirectorio + doc + ".txt";
+            StreamReader docente = new StreamReader(cur);
+            string mesg = "";
+            string linedoc;
+
+            while ((linedoc = docente.ReadLine()) != null)
+            {
+                mesg = linedoc;
+            }
+
+            TxtDocente.Text = mesg;
+        }
+
+        protected void BtnSumar_Click(object sender, EventArgs e)
+        {
+            TxtCodigo.Visible = true;
+            TxtNombre.Visible = true;
+            TxtCodigo1.Visible = true;
+            TxtNombre1.Visible = true;
+            BtnSumar1.Visible = true;
+        }
+
+        protected void BtnSumar1_Click(object sender, EventArgs e)
+        {
+            TxtCodigo.Visible = true;
+            TxtNombre.Visible = true;
+            TxtCodigo1.Visible = true;
+            TxtNombre1.Visible = true;
+            TxtCodigo2.Visible = true;
+            TxtNombre2.Visible = true;
+            BtnSumar2.Visible = true;
+        }
+
+        protected void BtnSumar2_Click(object sender, EventArgs e)
+        {
+            TxtCodigo.Visible = true;
+            TxtNombre.Visible = true;
+            TxtCodigo1.Visible = true;
+            TxtNombre1.Visible = true;
+            TxtCodigo2.Visible = true;
+            TxtNombre2.Visible = true;
+            TxtCodigo3.Visible = true;
+            TxtNombre3.Visible = true;
         }
     }
 }

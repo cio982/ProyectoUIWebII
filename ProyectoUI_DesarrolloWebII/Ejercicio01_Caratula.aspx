@@ -73,7 +73,7 @@
             <tr>
                 <td class="auto-style1">CICLO:</td>
                 <td class="auto-style2">
-                    <asp:DropDownList ID="DdlCiclo" runat="server" Height="20px" Width="140px">
+                    <asp:DropDownList ID="DdlCiclo" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DdlCiclo_SelectedIndexChanged1">
                     </asp:DropDownList>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
@@ -81,7 +81,7 @@
             <tr>
                 <td class="auto-style1">CURSO:</td>
                 <td class="auto-style2">
-                    <asp:DropDownList ID="DdlCurso" runat="server" Height="20px" Width="250px">
+                    <asp:DropDownList ID="DdlCurso" runat="server" Height="20px" Width="250px" AutoPostBack="True" OnSelectedIndexChanged="DdlCurso_SelectedIndexChanged">
                     </asp:DropDownList>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
@@ -103,7 +103,7 @@
             <tr>
                 <td class="auto-style1">PRESENTACION:</td>
                 <td class="auto-style2">
-                    <asp:RadioButtonList ID="RbtnPresentacion" runat="server">
+                    <asp:RadioButtonList ID="RbtnPresentacion" runat="server" AppendDataBoundItems="True" AutoPostBack="True" OnSelectedIndexChanged="RbtnPresentacion_SelectedIndexChanged">
                         <asp:ListItem>Individual</asp:ListItem>
                         <asp:ListItem>Grupal</asp:ListItem>
                     </asp:RadioButtonList>
@@ -128,7 +128,7 @@
                     <asp:TextBox ID="TxtNombre" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="BtnSumar" runat="server" Width="50px" />
+                    <asp:Button ID="BtnSumar" runat="server" Width="50px" OnClick="BtnSumar_Click" />
                 </td>
             </tr>
             <tr>
@@ -139,7 +139,7 @@
                     <asp:TextBox ID="TxtNombre1" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="BtnSumar1" runat="server" Width="50px" />
+                    <asp:Button ID="BtnSumar1" runat="server" Width="50px" OnClick="BtnSumar1_Click" />
                 </td>
             </tr>
             <tr>
@@ -150,7 +150,7 @@
                     <asp:TextBox ID="TxtNombre2" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="BtnSumar2" runat="server" Width="50px" />
+                    <asp:Button ID="BtnSumar2" runat="server" Width="50px" OnClick="BtnSumar2_Click" />
                 </td>
             </tr>
             <tr>
@@ -161,8 +161,7 @@
                     <asp:TextBox ID="TxtNombre3" runat="server" Width="245px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="BtnSumar3" runat="server" Width="50px" />
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">&nbsp;</td>
