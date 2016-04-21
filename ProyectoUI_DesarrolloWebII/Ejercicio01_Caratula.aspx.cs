@@ -30,60 +30,84 @@ namespace ProyectoUI_DesarrolloWebII
             string rutaarchivo12 = rutadirectorio + "curso8.txt";
             string rutaarchivo13 = rutadirectorio + "curso9.txt";
             string rutaarchivo14 = rutadirectorio + "curso10.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
+            string rutaarchivo151 = rutadirectorio + "electivos.txt";
             /*docentes-cursos=66*/
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
-            string rutaarchivo15 = rutadirectorio + "electivos.txt";
+            string rutaarchivo15 = rutadirectorio + "MATEMATICA I.txt";
+            string rutaarchivo16 = rutadirectorio + "MATEMATICA BASICA I.txt";
+            string rutaarchivo17 = rutadirectorio + "INTRODUCCION A LA INGENIERIA DE SISTEMAS.txt";
+            string rutaarchivo18 = rutadirectorio + "DISEÑO EN INGENIERIA.txt";
+            string rutaarchivo19 = rutadirectorio + "COMUNICACION ORAL Y ESCRITA.txt";
+            string rutaarchivo20 = rutadirectorio + "METODOLOGIA DEL TRABAJO UNIVERSITARIO.txt";
+
+            string rutaarchivo21 = rutadirectorio + "MATEMATICA II.txt";
+            string rutaarchivo22 = rutadirectorio + "FISICA I.txt";
+            string rutaarchivo221 = rutadirectorio + "TECNICAS DE PROGRAMACION.txt";
+            string rutaarchivo23 = rutadirectorio + "ECONOMIA I.txt";
+            string rutaarchivo24 = rutadirectorio + "ESTADISTICA I.txt";
+            string rutaarchivo25 = rutadirectorio + "QUIMICA I.txt";
+
+            string rutaarchivo26 = rutadirectorio + "MATEMATICA DISCRETA.txt";
+            string rutaarchivo27 = rutadirectorio + "SISTEMAS ELECTRONICOS DIGITALES.txt";
+            string rutaarchivo28 = rutadirectorio + "ALGORITMOS Y ESTRUCTURA DE DATOS.txt";
+            string rutaarchivo29 = rutadirectorio + "DISEÑO Y MODELAMIENTO.txt";
+            string rutaarchivo30 = rutadirectorio + "MODELO DE PROCESOS DE NEGOCIOS.txt";
+            string rutaarchivo31 = rutadirectorio + "SISTEMAS DE INFORMACION.txt";
+
+            string rutaarchivo32 = rutadirectorio + "INTRODUCCION AL DESARROLLO WEB.txt";
+            string rutaarchivo33 = rutadirectorio + "ARQUITECTURA DEL COMPUTADOR.txt";
+            string rutaarchivo34 = rutadirectorio + "PROGRAMACION I.txt";
+            string rutaarchivo35 = rutadirectorio + "INGENIERIA ECONOMICA Y FINANCIERA.txt";
+            string rutaarchivo36 = rutadirectorio + "INGENIERIA DE REQUERIMIENTOS.txt";
+            string rutaarchivo37 = rutadirectorio + "PROGRAMACION ORIENTADA A OBJETOS.txt";
+
+            string rutaarchivo38 = rutadirectorio + "DISEÑO DE BASE DE DATOS.txt";
+            string rutaarchivo39 = rutadirectorio + "SISTEMAS OPERATIVOS I.txt";
+            string rutaarchivo40 = rutadirectorio + "PROGRAMACION II.txt";
+            string rutaarchivo41 = rutadirectorio + "INVESTIGACION DE OPERACIONES.txt";
+            string rutaarchivo42 = rutadirectorio + "DISEÑO Y ARQUITECTURA DE SOFTWARE.txt";
+            string rutaarchivo43 = rutadirectorio + "INTERACCION Y DISEÑO DE INTERFACES.txt";
+
+            string rutaarchivo44 = rutadirectorio + "BASE DE DATOS I.txt";
+            string rutaarchivo45 = rutadirectorio + "SISTEMAS OPERATIVOS II.txt";
+            string rutaarchivo46 = rutadirectorio + "PROGRAMACION III.txt";
+            string rutaarchivo47 = rutadirectorio + "DESARROLLO DE APLICACIONES WEB I.txt";
+            string rutaarchivo48 = rutadirectorio + "INGENIERIA DE SOFTWARE.txt";
+            string rutaarchivo49 = rutadirectorio + "ETICA PROFECIONAL.txt";
+
+            string rutaarchivo50 = rutadirectorio + "BASE DE DATOS II.txt";
+            string rutaarchivo51 = rutadirectorio + "REDES Y COMUNICACIONES DE DATOS I.txt";
+            string rutaarchivo52 = rutadirectorio + "SOLUCIONES MOVILES I.txt";
+            string rutaarchivo53 = rutadirectorio + "CALIDAD Y PRUEBAS DE SOFTWARE.txt";
+            string rutaarchivo54 = rutadirectorio + "GESTION DE PROYECTOS DE TI.txt";
+
+            string rutaarchivo55 = rutadirectorio + "DESARROLLO DE APLICACIONES WEB II,.txt";
+            string rutaarchivo56 = rutadirectorio + "REDES Y COMUNICACIONES DE DATOS II.txt";
+            string rutaarchivo57 = rutadirectorio + "INGLES TECNICO.txt";
+            string rutaarchivo58 = rutadirectorio + "INTELIGENCIA DE NEGOCIOS.txt";
+            string rutaarchivo59 = rutadirectorio + "SEGURIDAD INFORMATICA.txt";
+
+            string rutaarchivo60 = rutadirectorio + "GESTION DE LA CONFIGURACION Y ADMINISTRACION DE SOFTWARE.txt";
+            string rutaarchivo61 = rutadirectorio + "REDES Y COMUNICACIONES DE DATOS III.txt";
+            string rutaarchivo62 = rutadirectorio + "PLANEAMIENTO ESTRATEGICO DE TI.txt";
+            string rutaarchivo63 = rutadirectorio + "CONSTRUCCION DE SOFTWARE I.txt";
+            string rutaarchivo64 = rutadirectorio + "AUDITORIA DE SISTEMAS.txt";
+            string rutaarchivo65 = rutadirectorio + "METODOLOGIA DE LA INVESTIGACION APLICADA.txt";
+
+            string rutaarchivo66 = rutadirectorio + "TALLER DE LIDERAZGO Y ENPRENDIMIENTO.txt";
+            string rutaarchivo67 = rutadirectorio + "TALLER DE REDES Y COMUNICACION DE DATOS.txt";
+            string rutaarchivo68 = rutadirectorio + "TALLER DE TESIS.txt";
+            string rutaarchivo69 = rutadirectorio + "CONSTRUCCION DE SOFTWARE II.txt";
+            string rutaarchivo70 = rutadirectorio + "GERENCIA DE TI.txt";
+
+            string rutaarchivo71 = rutadirectorio + "MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE.txt";
+            string rutaarchivo72 = rutadirectorio + "CONTABILIDAD GENERAL.txt";
+            string rutaarchivo73 = rutadirectorio + "PATRONES DE SOFTWARE.txt";
+            string rutaarchivo74 = rutadirectorio + "DERECHO INFORMATICO.txt";
+            string rutaarchivo75 = rutadirectorio + "DISEÑO Y CREACION DE VIDEOJUEGOS.txt";
+            string rutaarchivo76 = rutadirectorio + "NEGOCIOS Y MARKETING POR INTERNET,.txt";
+            string rutaarchivo77 = rutadirectorio + "TOPICOS DE BASE DE DATOS AVANZADOS.txt";
+            string rutaarchivo78 = rutadirectorio + "SISTEMA DE INFORMACION DE BANCA Y FINANZAS.txt";
+            string rutaarchivo79 = rutadirectorio + "SOLUCIONES MOVILES II.txt";
             /**/
 
             /*//////////////////////////////////////////////////////////////////////////////////////////datos*/
@@ -218,16 +242,609 @@ namespace ProyectoUI_DesarrolloWebII
                 }
             }
 
-            if (!File.Exists(rutaarchivo15))
+            if (!File.Exists(rutaarchivo151))
             {
-                FileStream archivo15 = new FileStream(rutaarchivo15, FileMode.Create);
-                using (StreamWriter w = new StreamWriter(archivo15))
+                FileStream archivo151 = new FileStream(rutaarchivo151, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo151))
                 {
                     w.Write("MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE,CONTABILIDAD GENERAL,PATRONES DE SOFTWARE,DERECHO INFORMATICO,DISEÑO Y CREACION DE VIDEOJUEGOS,NEGOCIOS Y MARKETING POR INTERNET,TOPICOS DE BASE DE DATOS AVANZADOS,SISTEMA DE INFORMACION DE BANCA Y FINANZAS,SOLUCIONES MOVILES II");
                 }
             }
 
             /*////////////////////////////////////////////////////////////////////////////////////////////docentes*/
+            if (!File.Exists(rutaarchivo15))
+            {
+                FileStream archivo15 = new FileStream(rutaarchivo15, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo15))
+                {
+                    w.Write("Javier Alca Gomez");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo16))
+            {
+                FileStream archivo16 = new FileStream(rutaarchivo16, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo16))
+                {
+                    w.Write("Silvia Centella Vildoso");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo17))
+            {
+                FileStream archivo17 = new FileStream(rutaarchivo17, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo17))
+                {
+                    w.Write("Tito Ale Nieto");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo18))
+            {
+                FileStream archivo18 = new FileStream(rutaarchivo18, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo18))
+                {
+                    w.Write("Elard Rodriguez Marca");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo19))
+            {
+                FileStream archivo19 = new FileStream(rutaarchivo19, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo19))
+                {
+                    w.Write("Americo Alca Gomez");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo20))
+            {
+                FileStream archivo20 = new FileStream(rutaarchivo20, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo20))
+                {
+                    w.Write("Yanira Valdivia");
+                }
+            }
+                                                                                    /******************************************/
+            if (!File.Exists(rutaarchivo21))
+            {
+                FileStream archivo21 = new FileStream(rutaarchivo21, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo21))
+                {
+                    w.Write("Silvia Centella Vildoso");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo22))
+            {
+                FileStream archivo22 = new FileStream(rutaarchivo22, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo22))
+                {
+                    w.Write("Jenny Huayta Curo");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo221))
+            {
+                FileStream archivo221 = new FileStream(rutaarchivo221, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo221))
+                {
+                    w.Write("Haydee Raquel Sisa Yataco");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo23))
+            {
+                FileStream archivo23 = new FileStream(rutaarchivo23, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo23))
+                {
+                    w.Write("Liliana Vega Bernal");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo24))
+            {
+                FileStream archivo24 = new FileStream(rutaarchivo24, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo24))
+                {
+                    w.Write("Minelly Martinez Peñaloza");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo25))
+            {
+                FileStream archivo25 = new FileStream(rutaarchivo25, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo25))
+                {
+                    w.Write("Vicente Malaga");
+                }
+            }
+                                                                                           /******************************************/
+            if (!File.Exists(rutaarchivo26))
+            {
+                FileStream archivo26 = new FileStream(rutaarchivo26, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo26))
+                {
+                    w.Write("Javier Alca Gomez");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo27))
+            {
+                FileStream archivo27 = new FileStream(rutaarchivo27, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo27))
+                {
+                    w.Write("Jenny Huayta Curo");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo28))
+            {
+                FileStream archivo28 = new FileStream(rutaarchivo28, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo28))
+                {
+                    w.Write("Marcia Martinez Salamanca");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo29))
+            {
+                FileStream archivo29 = new FileStream(rutaarchivo29, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo29))
+                {
+                    w.Write("Maria Chambilla");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo30))
+            {
+                FileStream archivo30 = new FileStream(rutaarchivo30, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo30))
+                {
+                    w.Write("Haydee Raquel Sisa Yataco");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo31))
+            {
+                FileStream archivo31 = new FileStream(rutaarchivo31, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo31))
+                {
+                    w.Write("Minelly Martinez Peñaloza");
+                }
+            }
+                                                                                           /******************************************/
+            if (!File.Exists(rutaarchivo32))
+            {
+                FileStream archivo32 = new FileStream(rutaarchivo32, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo32))
+                {
+                    w.Write("Tito Ale Nieto");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo33))
+            {
+                FileStream archivo33 = new FileStream(rutaarchivo33, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo33))
+                {
+                    w.Write("Henry Chaiña");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo34))
+            {
+                FileStream archivo34 = new FileStream(rutaarchivo34, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo34))
+                {
+                    w.Write("Elard Rodriguez Marca");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo35))
+            {
+                FileStream archivo35 = new FileStream(rutaarchivo35, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo35))
+                {
+                    w.Write("Liliana Vega Bernal");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo36))
+            {
+                FileStream archivo36 = new FileStream(rutaarchivo36, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo36))
+                {
+                    w.Write("Mariella Ibarra Montesinos");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo37))
+            {
+                FileStream archivo37 = new FileStream(rutaarchivo37, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo37))
+                {
+                    w.Write("Jesus Tejerina Rivera");
+                }
+            }
+                                                                                           /******************************************/
+            if (!File.Exists(rutaarchivo38))
+            {
+                FileStream archivo38 = new FileStream(rutaarchivo38, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo38))
+                {
+                    w.Write("Haydee Raquel Sisa Yataco");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo39))
+            {
+                FileStream archivo39 = new FileStream(rutaarchivo39, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo39))
+                {
+                    w.Write("Enrique Lanchipa Valencia");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo40))
+            {
+                FileStream archivo40 = new FileStream(rutaarchivo40, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo40))
+                {
+                    w.Write("Jesus Tejerina Rivera");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo41))
+            {
+                FileStream archivo41 = new FileStream(rutaarchivo41, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo41))
+                {
+                    w.Write("Minelly Martinez Peñaloza");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo42))
+            {
+                FileStream archivo42 = new FileStream(rutaarchivo42, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo42))
+                {
+                    w.Write("Mariella Ibarra Montesinos");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo43))
+            {
+                FileStream archivo43 = new FileStream(rutaarchivo43, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo43))
+                {
+                    w.Write("Elard Rodriguez Marca");
+                }
+            }
+                                                                                           /******************************************/
+            if (!File.Exists(rutaarchivo44))
+            {
+                FileStream archivo44 = new FileStream(rutaarchivo44, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo44))
+                {
+                    w.Write("Carlos Ruiz Cancino");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo45))
+            {
+                FileStream archivo45 = new FileStream(rutaarchivo45, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo45))
+                {
+                    w.Write("Henry Chaiña");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo46))
+            {
+                FileStream archivo46 = new FileStream(rutaarchivo46, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo46))
+                {
+                    w.Write("Enrique Lanchipa Valencia");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo47))
+            {
+                FileStream archivo47 = new FileStream(rutaarchivo47, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo47))
+                {
+                    w.Write("Tito Ale Nieto");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo48))
+            {
+                FileStream archivo48 = new FileStream(rutaarchivo48, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo48))
+                {
+                    w.Write("Martha Paredes Vignola");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo49))
+            {
+                FileStream archivo49 = new FileStream(rutaarchivo49, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo49))
+                {
+                    w.Write("Liliana Vega Bernal");
+                }
+            }
+                                                                                           /******************************************/
+            if (!File.Exists(rutaarchivo50))
+            {
+                FileStream archivo50 = new FileStream(rutaarchivo50, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo50))
+                {
+                    w.Write("Patrick Cuadros Quiroga");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo51))
+            {
+                FileStream archivo51 = new FileStream(rutaarchivo51, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo51))
+                {
+                    w.Write("Ricardo Sante Zavaleta");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo52))
+            {
+                FileStream archivo52 = new FileStream(rutaarchivo52, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo52))
+                {
+                    w.Write("Alberto Flor Rodriguez");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo53))
+            {
+                FileStream archivo53 = new FileStream(rutaarchivo53, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo53))
+                {
+                    w.Write("Rafael Poma Laura	");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo54))
+            {
+                FileStream archivo54 = new FileStream(rutaarchivo54, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo54))
+                {
+                    w.Write("Martha Paredes Vignola");
+                }
+            }
+                                                                                           /******************************************/
+            if (!File.Exists(rutaarchivo55))
+            {
+                FileStream archivo55 = new FileStream(rutaarchivo55, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo55))
+                {
+                    w.Write("Enrique Lanchipa Valencia");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo56))
+            {
+                FileStream archivo56 = new FileStream(rutaarchivo56, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo56))
+                {
+                    w.Write("Henry Chaiña");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo57))
+            {
+                FileStream archivo57 = new FileStream(rutaarchivo57, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo57))
+                {
+                    w.Write("Merla Pilco");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo58))
+            {
+                FileStream archivo58 = new FileStream(rutaarchivo58, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo58))
+                {
+                    w.Write("Carlos Ruiz Cancino");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo59))
+            {
+                FileStream archivo59 = new FileStream(rutaarchivo59, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo59))
+                {
+                    w.Write("Alberto Flor Rodriguez");
+                }
+            }
+                                                                                           /******************************************/
+            if (!File.Exists(rutaarchivo60))
+            {
+                FileStream archivo60 = new FileStream(rutaarchivo60, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo60))
+                {
+                    w.Write("Ricardo Valcárcel Alvarado");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo61))
+            {
+                FileStream archivo61 = new FileStream(rutaarchivo61, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo61))
+                {
+                    w.Write("Martin Alcántara");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo62))
+            {
+                FileStream archivo62 = new FileStream(rutaarchivo62, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo62))
+                {
+                    w.Write("Rafael Poma Laura	");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo63))
+            {
+                FileStream archivo63 = new FileStream(rutaarchivo63, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo63))
+                {
+                    w.Write("Rodolfo Alanoca Llanos");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo64))
+            {
+                FileStream archivo64 = new FileStream(rutaarchivo64, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo64))
+                {
+                    w.Write("Roberto Liendo Huabloche");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo65))
+            {
+                FileStream archivo65 = new FileStream(rutaarchivo65, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo65))
+                {
+                    w.Write("Erbert Osco Mamani");
+                }
+            }
+                                                                                           /******************************************/
+            if (!File.Exists(rutaarchivo66))
+            {
+                FileStream archivo66 = new FileStream(rutaarchivo66, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo66))
+                {
+                    w.Write("Minelly Martinez Peñaloza");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo67))
+            {
+                FileStream archivo67 = new FileStream(rutaarchivo67, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo67))
+                {
+                    w.Write("Martin Alcántara");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo68))
+            {
+                FileStream archivo68 = new FileStream(rutaarchivo68, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo68))
+                {
+                    w.Write("Luis Fernandez");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo69))
+            {
+                FileStream archivo69 = new FileStream(rutaarchivo69, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo69))
+                {
+                    w.Write("Rodolfo Alanoca Llanos");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo70))
+            {
+                FileStream archivo70 = new FileStream(rutaarchivo70, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo70))
+                {
+                    w.Write("Ricardo Valcárcel Alvarado");
+                }
+            }
+                                                                                           /******************************************/
+            if (!File.Exists(rutaarchivo71))
+            {
+                FileStream archivo71 = new FileStream(rutaarchivo71, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo71))
+                {
+                    w.Write("Liliana Vega Bernal");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo72))
+            {
+                FileStream archivo72 = new FileStream(rutaarchivo72, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo72))
+                {
+                    w.Write("Docente Invitado");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo73))
+            {
+                FileStream archivo73 = new FileStream(rutaarchivo73, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo73))
+                {
+                    w.Write("Docente Invitado");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo74))
+            {
+                FileStream archivo74 = new FileStream(rutaarchivo74, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo74))
+                {
+                    w.Write("Carlos Pajuelo Beltran");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo75))
+            {
+                FileStream archivo75 = new FileStream(rutaarchivo75, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo75))
+                {
+                    w.Write("Docente Invitado");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo76))
+            {
+                FileStream archivo76 = new FileStream(rutaarchivo76, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo76))
+                {
+                    w.Write("Jesus Tejerina Rivera");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo77))
+            {
+                FileStream archivo77 = new FileStream(rutaarchivo77, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo77))
+                {
+                    w.Write("Patrick Cuadros Quiroga");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo78))
+            {
+                FileStream archivo78 = new FileStream(rutaarchivo78, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo78))
+                {
+                    w.Write("Rodolfo Alanoca Llanos");
+                }
+            }
+
+            if (!File.Exists(rutaarchivo79))
+            {
+                FileStream archivo79 = new FileStream(rutaarchivo79, FileMode.Create);
+                using (StreamWriter w = new StreamWriter(archivo79))
+                {
+                    w.Write("Alberto Flor Rodriguez");
+                }
+            }
         }
 
         protected void BtnMostrar_Click(object sender, EventArgs e)
