@@ -87,12 +87,14 @@ namespace ProyectoUI_DesarrolloWebII
             /**/
 
             /*//////////////////////////////////////////////////////////////////////////////////////////datos*/
-            if (!File.Exists(rutadirectorio)) {
+            if (!File.Exists(rutadirectorio))
+            {
                 string directorio = Path.Combine(rutadirectorio);
                 Directory.CreateDirectory(directorio);
             }
 
-            if (!File.Exists(rutaarchivo)){
+            if (!File.Exists(rutaarchivo))
+            {
                 FileStream archivo = new FileStream(rutaarchivo, FileMode.Create);
                 using (StreamWriter w = new StreamWriter(archivo))
                 {
@@ -228,6 +230,17 @@ namespace ProyectoUI_DesarrolloWebII
             }
 
             /*////////////////////////////////////////////////////////////////////////////////////////////docentes*/
+
+            //Me escuchas?
+            //no
+
+            //leyendo el fichero para el combobox
+
+            //using (StreamReader sr = new StreamReader(rutaarchivo4))
+            //{
+            //    String line = sr.ReadToEnd();
+            //    DdlCurso.WriteLine(line);
+            //}
         }
 
         protected void BtnMostrar_Click(object sender, EventArgs e)
