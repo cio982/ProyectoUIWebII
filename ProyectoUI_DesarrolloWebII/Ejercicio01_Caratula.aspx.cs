@@ -86,7 +86,7 @@ namespace ProyectoUI_DesarrolloWebII
             string rutaarchivo15 = rutadirectorio + "electivos.txt";
             /**/
 
-            /*////////////////////////////////////////////////////////////////////////////////////////////datos*/
+            /*//////////////////////////////////////////////////////////////////////////////////////////datos*/
             if (!File.Exists(rutadirectorio)) {
                 string directorio = Path.Combine(rutadirectorio);
                 Directory.CreateDirectory(directorio);
