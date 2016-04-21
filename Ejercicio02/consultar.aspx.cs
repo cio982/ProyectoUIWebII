@@ -9,6 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace Ejercicio02
 {
+    //ejercicios 2
     public partial class consultar : System.Web.UI.Page
     {
         //Ciclo
